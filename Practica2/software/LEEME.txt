@@ -1,0 +1,23 @@
+Práctica 1: Técnicas de Búsqueda Local y Algoritmos Greedy para el Problema del Aprendizaje de Pesos en Características
+Asignatura Metaheurísticas UGR 2018-2019
+Alumno: Daniel Bolaños Martínez
+DNI: 76592621-E
+email: danibolanos@correo.ugr.es
+
+
+La práctica contiene un archivo makefile que se encarga de compilar el programa que contiene los 10 algoritmos de las prácticas 1 y 2 (1-NN, Greedy Relief, Búsqueda Local, AGG_BLX, AGG_CA, AGE_BLX, AGE_CA, AM(10,1.0), AM(10,0.1), AM(10,0.1)_mej).
+
+El programa aparecerá en el directorio bin con el nombre de p2.
+
+Existe un directorio data el cual contiene los archivos fuente con la extensión .csv que se han utilizado para ejecutar el programa.
+
+Existen dos modos para obtener los resultados del programa:
+
+> ./bin/p1 ./data/archivo.csv seed
+
+Muestra los resultados de la ejecución del archivo pasado como parámetro por pantalla. El tercer argumento indica la semilla con la que se inicializará el algoritmo pseudoaleatorio y las distribuciones.
+
+> ./bin/p1 seed
+
+Crea en el directorio data un archivo .csv llamado tablas.csv que contiene los resultados relativos a la ejecución de los tres archivos de data suministrados junto con toda la información para cada algoritmo programado.
+

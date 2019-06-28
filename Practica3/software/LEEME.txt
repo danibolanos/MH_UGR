@@ -1,0 +1,22 @@
+Práctica 3: Enfriamiento Simulado, Búsqueda Local Reiterada y Evolución Diferencial para el Problema APC
+Asignatura Metaheurísticas UGR 2018-2019
+Alumno: Daniel Bolaños Martínez
+DNI: 76592621-E
+email: danibolanos@correo.ugr.es
+
+La práctica contiene un archivo makefile que se encarga de compilar el programa que contiene los 6 algoritmos de las práctica 3 (1-NN, Greedy Relief, ES, ILS, DE/rand/1, DE/current-to-best/1).
+
+El programa aparecerá en el directorio bin con el nombre de p3.
+
+Existe un directorio data el cual contiene los archivos fuente con la extensión .csv que se han utilizado para ejecutar el programa.
+
+Existen dos modos para obtener los resultados del programa:
+
+> ./bin/p3 ./data/archivo.csv seed
+
+Muestra los resultados de la ejecución del archivo pasado como parámetro por pantalla. El tercer argumento indica la semilla con la que se inicializará el algoritmo pseudoaleatorio y las distribuciones.
+
+> ./bin/p3 seed
+
+Crea en el directorio data un archivo .csv llamado tablas.csv que contiene los resultados relativos a la ejecución de los tres archivos de data suministrados junto con toda la información para cada algoritmo programado.
+
